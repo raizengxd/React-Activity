@@ -6,4 +6,4 @@ This is for collaborative project of C201 Group 6 , members are:Lemuel Licup, Jo
 2. News Publication for CCA Phoenix 
 3. CCA Student Portal 
 
-this is raizen sangalang
+ <!-- this is raizen sangalang -->
