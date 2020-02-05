@@ -6,14 +6,25 @@ var app = new Vue({
     cameras: [],
     scans: []
   },
+
+ 
+
+
   mounted: function () {
     var self = this;
     self.scanner = new Instascan.Scanner({ video: document.getElementById('preview'), scanPeriod: 5 });
     self.scanner.addListener('scan', function (content, image) {
       self.scans.unshift({ date: +(Date.now()), content: content });
       console.log(self.scans);
-      alert({content:content}.content);
+      sayHi();
+      
+      
     });
+
+    function sayHi(){
+      console.log("Testing 001"+"Hi")
+    }
+
     Instascan.Camera.getCameras().then(function (cameras) {
       self.cameras = cameras;
       if (cameras.length > 0) {
@@ -33,6 +44,9 @@ var app = new Vue({
     selectCamera: function (camera) {
       this.activeCameraId = camera.id;
       this.scanner.start(camera);
-    }
+    },
+    
+    
+    
   }
 });
