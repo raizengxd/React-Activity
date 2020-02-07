@@ -6,7 +6,10 @@
     <title>Register</title>
 </head>
 <body>
+    <form method="POST" action="insert.php" >
     <input type="text" name="username" placeholder="username">
     <input type="password" name = "password" placeholder="password">
+    <input type="submit">
+    </form>
 </body>
 </html>
