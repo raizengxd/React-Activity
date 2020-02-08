@@ -6,9 +6,28 @@
     <title>Register</title>
 </head>
 <body>
+
+<!-- 
+ID
+title 
+name
+gender
+contact number
+organization 
+email
+event 
+
+
+-->
     <form method="POST" action="insert.php" >
-    <input type="text" name="username" placeholder="username">
-    <input type="password" name = "password" placeholder="password">
+    <input type="text" name="event_name" placeholder="Event Name"><br>
+    <input type="text" name="location" placeholder="Location"><br>
+    <input type="textarea" name ="description" placeholder="Description"><br>
+    
+    
+
+    <input type="date" name = "password" placeholder="datepicker">
+
     <input type="submit">
     </form>
 </body>
