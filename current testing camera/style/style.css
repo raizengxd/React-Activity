@@ -1,0 +1,14 @@
+
+form {
+    margin-bottom: 1.5em; }
+    form .double {
+      -js-display: flex;
+      display: flex;
+      justify-content: space-between; }
+      form .double .half {
+        max-width: 48%; }
+  
+.form {
+margin-left: auto;
+background-color: aqua;
+margin-right: auto; }
