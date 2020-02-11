@@ -13,5 +13,39 @@
         <input type ="password" placeholder="password" name = "password"><br>
         <input type ="submit">
     </form>
+
+    <center>
+    <?php
+    
+    include("condb.php");
+    
+    
+   
+    $result = mysqli_query($conn,"SELECT * FROM tbl_login");
+    
+    echo "<table border='1'>
+    <tr>
+    <th>Username</th>
+    <th>Password</th>
+    </tr>";
+    
+    
+    while($row = mysqli_fetch_array($result))
+    {
+    echo "<tr>";
+    echo "<td>" . $row['username'] . "</td>";
+    echo "<td>" . $row['password'] . "</td>";
+    echo "<td><button>Edit</button></td></tr>";
+    }
+    echo "</table>";
+    
+    
+    
+    
+    
+    mysqli_close($conn);
+    ?>
+
+</center>
 </body>
 </html>
