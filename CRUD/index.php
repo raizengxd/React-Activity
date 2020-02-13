@@ -36,6 +36,7 @@
     echo "<td>" . $row['username'] . "</td>";
     echo "<td>" . $row['password'] . "</td>";
     echo "<td><button>Edit</button></td></tr>";
+    echo "<td><button>Delete</button></td></tr>";
     }
     echo "</table>";
     
