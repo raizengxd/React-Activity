@@ -14,10 +14,7 @@ if (mysqli_query($conn, $sql)) {
         
     echo '<script> alert("New Record") </script>';
     echo "New record created successfully";
-    header("Location: index.php");
-
-
-   
+    header("Location: index.php"); 
     
 }
  else {
