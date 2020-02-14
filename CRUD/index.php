@@ -22,7 +22,7 @@
     
    
     $result = mysqli_query($conn,"SELECT * FROM tbl_login");
-    
+    echo "<center> CRUD </center>"
     echo "<table border='1'>
     <tr>
     <th>Username</th>
