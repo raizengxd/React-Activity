@@ -42,6 +42,7 @@
     echo "<td><button>Delete</button></td></tr>";
     }
     echo "</table>";
+    echo "hi";
     
     
     
