@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+   
     <title>Document</title>
 </head>
 <body>
@@ -35,15 +33,16 @@
     
     while($row = mysqli_fetch_array($result))
     {
+    $nameee= $row['username'];
     echo "<tr>";
-    echo "<td>" . $row['username'] . "</td>";
+    echo "<td>" .$nameee  . "</td>";
     echo "<td>" . $row['password'] . "</td>";
-    echo "<td><button>Edit</button></td></tr>";
-    echo "<td><button>Delete</button></td></tr>";
+   echo "<td><a href='update.php? id=   ".$nameee."'>Edit</a></td></tr>";
+   
     }
+
     echo "</table>";
-    echo "hi";
-    
+   
     
     
     
