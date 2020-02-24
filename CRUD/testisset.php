@@ -1,5 +1,5 @@
 <?php
-if (isset($_POST["import"])){
+if (isset($_POST["name"])){
     echo "Heelllo"; 
 }
 ?>
