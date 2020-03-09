@@ -1,9 +1,4 @@
-# software-engineering-project
-This is for collaborative project of C201 Group 6 , members are:Lemuel Licup, Joshua Lopez, Reggienel Patawaran,  Jemrick Santos and Raizen Sangalang
+# SOFTWARE ENGINEERING PROJECT 
 
+# TITLE: WEB BASED APPLICATION WORK IMMERSION PORTAL
 
-1. Event Registration system integrated with automation 
-2. News Publication for CCA Phoenix 
-3. CCA Student Portal 
-<!-- fix code tomorrow -->
-<!-- fix it one more  -->
