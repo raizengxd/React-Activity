@@ -5,7 +5,11 @@
 1. What are your struggles when you're organizing the student employees for their OJT?
 
 
+
+
 2.Is the institute the one looking for companies for students or the students are the ones to look for their respective company for employment?
+
+
 
 
 3. Do you still manage their working hours? how do you validate it, if they complete it?
