@@ -71,6 +71,4 @@ _(like are they allowed to apply as graphic designer, technician, QA, Painter, C
 10. Can the student change or drop its OJT for any circumstances
 
 
-
--->
-
+ ----!>
