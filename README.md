@@ -1,4 +1,3 @@
-<!--
 
 # WORK IMMERSION HUB FOR CITY COLLEGE OF ANGELES 
 
@@ -70,4 +69,3 @@ _(like are they allowed to apply as graphic designer, technician, QA, Painter, C
 9. what do you think will be the best way to monitor the time of the student?
 10. Can the student change or drop its OJT for any circumstances
 
--->
