@@ -1,4 +1,4 @@
-
+<!--
 # WORK IMMERSION HUB FOR CITY COLLEGE OF ANGELES 
 
 **Dedication:** This is dedicated to the Institute of Computing Studies and Library Information Science 
@@ -68,4 +68,4 @@ _(like are they allowed to apply as graphic designer, technician, QA, Painter, C
 8. Who manages the student schedule? Institute, Company or students themselves?
 9. what do you think will be the best way to monitor the time of the student?
 10. Can the student change or drop its OJT for any circumstances
-
+-->
