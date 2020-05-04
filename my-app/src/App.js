@@ -1,26 +1,41 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import MyButtons from './layouts/Button';
+import Answer from './layouts/Answer'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends Component{
+  state ={
+    answer:''
+  } 
+  buttonPress = buttonName =>{
+    if (buttonName==='='){
+      this.calculate()
+    }
+    else{
+      
+    this.setState({
+      answer:this.state.answer + buttonName
+    });
+    }
+  }     
+  calculate =()=>{
+    this.setState({
+        result:eval(this.state.answer)
+
+    });
+  }
+  render(){
+    return (
+      <div className="App">
+        <Answer answer={this.state.answer}/>
+        <MyButtons buttonPress={this.buttonPress}/>
+        <div>
+          
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
