@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import MyButtons from './layouts/Button';
 import Answer from './layouts/Answer'
-
+import './App.css'
 
 
 class App extends Component{
