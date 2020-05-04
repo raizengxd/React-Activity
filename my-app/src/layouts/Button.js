@@ -6,6 +6,8 @@ buttonPress =(e) =>{
   render(){
       return(
           <div>
+              <button name="C" onClick={this.buttonPress}>C</button>
+              <button name="CE" onClick={this.buttonPress}>BSPACE</button>
               <button name="1" onClick={this.buttonPress}>1</button>
               <button name="2"  onClick={this.buttonPress}>2</button>
               <button name="3"  onClick={this.buttonPress}>3</button>

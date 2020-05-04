@@ -12,6 +12,12 @@ class App extends Component{
     if (buttonName==='='){
       this.calculate()
     }
+    else if(buttonName==='C'){
+      this.reset()
+    }
+    else if(buttonName==='CE'){
+      this.backspace()
+    }  
     else{
       
     this.setState({
@@ -20,8 +26,28 @@ class App extends Component{
     }
   }     
   calculate =()=>{
+    try{
     this.setState({
-        result:eval(this.state.answer)
+        answer:(eval(this.state.answer) || "") +""
+
+    });}
+    catch{
+      this.setState({
+        answer:"error"
+      })
+      
+    }
+  }
+  backspace =()=>{
+    this.setState({
+        answer:this.state.answer.slice(0,-1)
+
+    });
+  }
+
+  reset =()=>{
+    this.setState({
+        answer:""
 
     });
   }
