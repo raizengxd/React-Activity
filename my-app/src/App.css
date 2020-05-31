@@ -6,8 +6,25 @@
 
 
 .answer{
-  background-color:#121316;
+  background-color:#000;
   font-size: 50pt;
+}
+.button {
+  display: block;
+
+  
+}
+
+button {  
+  background-color: teal;
+  color: white;
+  width: 25%;
+  height: 70px;
+  font-size: 30px;
+}
+.title{
+  color:teal;
+  font-size:50pt;
 }
 
 

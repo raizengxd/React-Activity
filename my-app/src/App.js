@@ -54,6 +54,7 @@ class App extends Component{
   render(){
     return (
       <div className="App">
+        <h1 class="title"> CALCULATOR</h1>
         <Answer answer={this.state.answer}/>
         <MyButtons buttonPress={this.buttonPress}/>
         <div>
