@@ -1,9 +1,7 @@
-
-import logo from './logo.svg';
 import './App.css';
-
 import React from 'react';
-import NavBar from './Components/navBar.js'
+import NavBar from './Components/navBar.js';
+
 function App() {
   return (
     <div className="App">
