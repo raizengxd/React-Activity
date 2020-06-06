@@ -8,7 +8,7 @@ function NavBar() {
   return (
   
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="#home">RAIZEN</Navbar.Brand>
+          <Navbar.Brand href="#home">TAYTEL</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">              
