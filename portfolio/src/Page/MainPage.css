@@ -2,10 +2,10 @@
     background-color:#343a40 ;
     color:#fff;  
 }
-.myName{      
-      
+.myName{     
     font-weight: 700;
-    font-size: 10vh;
+   font-size: 5em;
+ 
 }
 
 .header-2{
@@ -16,5 +16,6 @@
     padding-top: 10%;
 }
 .description{
+    font-size: 1.2em;
     font-weight: lighter;
 }

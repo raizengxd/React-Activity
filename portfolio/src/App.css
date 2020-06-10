@@ -6,6 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
+.makeCenter{
+  text-align: center;
+}
 
 
 

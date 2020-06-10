@@ -9,7 +9,7 @@ function NavBar() {
   
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="top">
           <Navbar.Brand href="#home">
-            <Icon.Kanban/>
+            <h1>RZ</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
