@@ -13,7 +13,7 @@ function MainPage() {
           <div className="description">
             I focus on Mobile App Development using Dart and Kotlin.
           </div>
-                  
+          <div style={{padding:"20px"}}></div>     
           <LayoutCard/>
         </Col>
        

@@ -11,6 +11,15 @@ function LayoutCard() {
       <ProjectCard></ProjectCard>
       <ProjectCard></ProjectCard>
       <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      
       </CardColumns>
     </div>
  
