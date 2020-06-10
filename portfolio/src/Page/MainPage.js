@@ -1,28 +1,25 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
+import {Col,Row,Container} from 'react-bootstrap/';
+import * as Icon from 'react-bootstrap-icons';
+
 import './MainPage.css';
+
 function MainPage() {
-  return (
+  return (   
+      <Container>     
+        <Col className="top-2">      
+          <h1 className="myName">Hi, I am </h1>
+          <h1 className="myName">RAIZEN SANGALANG</h1>
+          <h3 className="description">
+            I focus on Mobile App Development using Dart and Kotlin.
+          </h3>
+          <Row>
     
-        <Container>
-    <Row className="header-2">
-        <Col className="header" sm={8}>
-          
+          </Row>
         </Col>
-        <Col sm={4}>sm=4</Col>
-    </Row>
-    <Row>
-        <Col sm>sm=true</Col>
-        <Col sm>sm=true</Col>
-        <Col sm>sm=true</Col>
-    </Row>
-    </Container>
-     
-    
+       
+    </Container>  
   );
 }
-
 export default MainPage;

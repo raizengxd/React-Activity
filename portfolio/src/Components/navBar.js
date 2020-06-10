@@ -7,22 +7,24 @@ import './Navbar.css';
 function NavBar() {
   return (
   
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="#home">TAYTEL</Navbar.Brand>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="top">
+          <Navbar.Brand href="#home">
+            <Icon.Kanban/>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">              
-              <Nav.Link href="#features">
+              <Nav.Link href="#features" className="pad-2"> 
               <Icon.House className="pad" />
                 Home
                 </Nav.Link>
-              <Nav.Link href="#pricing">
+              <Nav.Link href="#pricing" className="pad-2">
               <Icon.Building className="pad" />
                 Projects</Nav.Link>                   
-              <Nav.Link href="#deets">
+              <Nav.Link href="#deets" className="pad-2">
               <Icon.Person className="pad" />             
-                About</Nav.Link>
-              <Nav.Link href="#memes">
+                About</Nav.Link >
+              <Nav.Link href="#memes" className="pad-2">
               <Icon.ChatDots className="pad" />
                 Contact me</Nav.Link>
             </Nav>
