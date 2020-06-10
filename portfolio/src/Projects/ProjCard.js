@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card} from 'react-bootstrap';
+import {Card,ListGroup,ListGroupItem} from 'react-bootstrap';
 import * as Icon from 'react-bootstrap-icons';
-function ProjectCard() {
+function ProjectCard({name,github,language,description}) {
   return (        
     <Card
     bg='dark'    
@@ -10,18 +10,17 @@ function ProjectCard() {
     style={{ width: '18rem' }}
     className="mb-2"
   >
-    <Card.Header>Header 
-        
-            <Icon.Pen></Icon.Pen>
-        
+    <Card.Header>        
+            <a href={github}>{name} </a>     
     </Card.Header>
-    <Card.Body>
-      
+    <Card.Body>      
       <Card.Text >
-        Some quick example text to build on the card title and make up the bulk
-        of the card's content.
-      </Card.Text>
+        {description}
+      </Card.Text>      
     </Card.Body>
+    <ListGroup className="list-group-flush" style="background">
+  <ListGroupItem>{language}</ListGroupItem>
+    </ListGroup>
   </Card>
     
   );
