@@ -6,15 +6,12 @@ import {CardColumns} from 'react-bootstrap';
 
 function LayoutCard() {
   return (  
-    <div >
-        
-    <CardColumns>
-    <ProjectCard></ProjectCard>
-    <ProjectCard></ProjectCard>
-    <ProjectCard></ProjectCard>
-    </CardColumns>
-  
-
+    <div >        
+      <CardColumns>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      <ProjectCard></ProjectCard>
+      </CardColumns>
     </div>
  
   );
