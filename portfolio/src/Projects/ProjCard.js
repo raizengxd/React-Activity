@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card,ListGroup,ListGroupItem} from 'react-bootstrap';
-import * as Icon from 'react-bootstrap-icons';
+import {Card} from 'react-bootstrap';
+
 function ProjectCard({name,github,language,description}) {
   return (        
     <Card
@@ -10,17 +10,18 @@ function ProjectCard({name,github,language,description}) {
     style={{ width: '18rem' }}
     className="mb-2"
   >
-    <Card.Header>        
-            <a href={github}>{name} </a>     
+    <Card.Header >        
+            <a href={github} style={{color:"#FFF"}}>{name} </a>     
     </Card.Header>
     <Card.Body>      
       <Card.Text >
         {description}
-      </Card.Text>      
+      </Card.Text>   
+      <b>  {language}</b>
+     
+ 
     </Card.Body>
-    <ListGroup className="list-group-flush" style="background">
-  <ListGroupItem>{language}</ListGroupItem>
-    </ListGroup>
+   
   </Card>
     
   );
