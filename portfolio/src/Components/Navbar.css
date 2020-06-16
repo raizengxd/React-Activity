@@ -1,5 +1,6 @@
 .pad{
     margin-right: 10px;
+    color: white;
 
 }
 .pad-2{
@@ -7,5 +8,7 @@
 
 }
 .top{
-    padding-top: 22px;
+    padding-top: 10px;
+    background:#0e0e0f;
 }
+

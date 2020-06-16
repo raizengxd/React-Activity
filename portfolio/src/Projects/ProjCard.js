@@ -1,5 +1,5 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../PageAB/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {Card} from 'react-bootstrap';
 
 function ProjectCard({name,github,language,description}) {

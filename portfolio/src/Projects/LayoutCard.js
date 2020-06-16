@@ -1,8 +1,8 @@
 import React , {useState}from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import '../PageAB/node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 import ProjectCard from './ProjCard.js';
-import {Row,CardColumns} from 'react-bootstrap';
+import {} from 'react-bootstrap';
 
 function LayoutCard() {
   const [projects] = useState([

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../PageAB/node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {Row,Col,Container} from 'react-bootstrap/';
 import './MainPage.css';
 import LayoutCard from '../Projects/LayoutCard.js'
@@ -21,7 +21,7 @@ function MainPage() {
           <div style={{padding:"20px"}}></div>     
          
         </Row>
-
+        
        
     </Container>  
   );
