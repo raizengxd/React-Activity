@@ -25,7 +25,7 @@ function LayoutCard() {
     <div >        
       <CardColumns>
      {projects.map(project=>(
-       <ProjectCard language={project.language} name={project.name} github={project.github} description={project.github} />
+       <ProjectCard language={project.language} name={project.name} github={project.github} description={project.description} />
      ) )}
       
       </CardColumns>
