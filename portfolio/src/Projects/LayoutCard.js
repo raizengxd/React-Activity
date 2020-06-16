@@ -2,7 +2,7 @@ import React , {useState}from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import ProjectCard from './ProjCard.js';
-import {CardColumns} from 'react-bootstrap';
+import {Row,CardColumns} from 'react-bootstrap';
 
 function LayoutCard() {
   const [projects] = useState([
@@ -23,12 +23,12 @@ function LayoutCard() {
 
   return (  
     <div >        
-      <CardColumns>
+    
      {projects.map(project=>(
        <ProjectCard language={project.language} name={project.name} github={project.github} description={project.description} />
      ) )}
-      
-      </CardColumns>
+    
+  
     </div>
  
   );
