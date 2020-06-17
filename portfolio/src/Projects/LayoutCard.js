@@ -1,5 +1,5 @@
 import React , {useState}from 'react';
-import '../PageAB/node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 
 import ProjectCard from './ProjCard.js';
 import {} from 'react-bootstrap';

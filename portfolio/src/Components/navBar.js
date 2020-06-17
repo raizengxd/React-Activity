@@ -1,5 +1,4 @@
 import React from 'react';
-import '../PageAB/node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import * as Icon from 'react-bootstrap-icons';
@@ -9,7 +8,7 @@ function NavBar() {
   
         <Navbar collapseOnSelect expand="lg" variant="dark" className="top">
           <Navbar.Brand href="#home">
-            <h1 style={{color:"white"}}>RaizengxD</h1>
+            <h1 style={{color:"white"}}>PA</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
