@@ -1,11 +1,6 @@
 import React from 'react';
 import {Row,Col,Container} from 'react-bootstrap/';
-
 import {SocialMediaIconsReact} from 'social-media-icons-react';
-
-
-
-
 function MainPage() {
   // Styles 
   
@@ -19,7 +14,7 @@ function MainPage() {
           <div className="description">            
             Computer Science student who doesn't eat water because water is for drinking
           </div>
-          <div style={{padding:"20px"}}></div>  
+  
           <div>
           <IconsSoc iconName="facebook"/>
           <IconsSoc iconName="instagram"/>
