@@ -1,6 +1,6 @@
 import React from 'react';
 import {Table} from 'react-bootstrap/';
-import './Skills.css';
+
 function SkillsPage() {
     return(
         <Table striped bordered hover>

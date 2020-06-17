@@ -1,14 +1,16 @@
 import React from 'react';
 import {Row,Col,Container} from 'react-bootstrap/';
-import './MainPage.css';
+
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 
 
 
 
 function MainPage() {
+  // Styles 
+  
   return (  
-     
+     <div style>
       <Container>     
         <Row className="top-2">
           <Col>    
@@ -29,7 +31,8 @@ function MainPage() {
         
         
        
-    </Container>  
+    </Container> 
+    </div> 
   );
 }
 
