@@ -1,6 +1,12 @@
 *{
   margin: 0;
   padding: 0;
+  font-family:'Montserrat';
+  
+}
+.head-title{
+  font-size: 52pt;
+  font-weight: 900;
 }
 
 .App-logo {
@@ -10,10 +16,6 @@
 .makeCenter{
   text-align: center;
 }
-
-
-
-
 .App-color{
   background-color:rgb(10, 10, 10);
 }

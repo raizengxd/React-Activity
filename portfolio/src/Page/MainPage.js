@@ -1,20 +1,30 @@
 import React from 'react';
 import {Row,Col,Container} from 'react-bootstrap/';
+import ReactTypingEffect from 'react-typing-effect';
 import {SocialMediaIconsReact} from 'social-media-icons-react';
+
+
+
+
 function MainPage() {
-  // Styles 
-  
-  return (  
-     <div style>
+  return (   
       <Container>     
         <Row className="top-2">
-          <Col>    
-          <h1 className="myName-2">Hello this is  </h1>
-          <h1 className="myName">PROGRAMMER AKO</h1>
+          <Col>  
+          <Row> 
+          <h1 className="head-title">
+            I am <span>
+            <ReactTypingEffect
+      text={["Human","Programmer", "Developer"]}
+      typingDelay="6000ms" 
+    />
+              </span>
+          </h1>
+          </Row> 
           <div className="description">            
             Computer Science student who doesn't eat water because water is for drinking
           </div>
-  
+          <div style={{padding:"20px"}}></div>  
           <div>
           <IconsSoc iconName="facebook"/>
           <IconsSoc iconName="instagram"/>
@@ -26,8 +36,7 @@ function MainPage() {
         
         
        
-    </Container> 
-    </div> 
+    </Container>  
   );
 }
 
