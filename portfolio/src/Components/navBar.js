@@ -6,9 +6,9 @@ import './Navbar.css';
 function NavBar() {
   return (
   
-        <Navbar collapseOnSelect expand="lg" variant="dark" className="top">
+        <Navbar collapseOnSelect expand="lg" variant="light" className="top">
           <Navbar.Brand href="#home">
-            <h1 style={{color:"white"}}>PA</h1>
+            <h1 style={{}}>PA</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -18,7 +18,7 @@ function NavBar() {
                 Home
                 </Nav.Link>
               <Nav.Link href="#pricing" className="pad-2">
-              <Icon.Building className="pad" color="white" />
+              <Icon.Building className="pad"  />
                 Projects</Nav.Link>                   
               <Nav.Link href="#deets" className="pad-2">
               <Icon.Person className="pad" color="white" />             

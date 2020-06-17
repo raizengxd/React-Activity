@@ -1,12 +1,15 @@
 *{
   margin: 0;
   padding: 0;
-  font-family:'Montserrat';
+  
+  font-weight: 100;
   
 }
 .head-title{
+  font-family: 'Montserrat';
   font-size: 52pt;
   font-weight: 900;
+  
 }
 
 .App-logo {
@@ -20,7 +23,24 @@
   background-color:rgb(10, 10, 10);
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.top-2{
+  padding-top: 150px;
+}
+.typing-letter{
+
+  color:#12b2df;
+}
+.details{
+  font-size: 36pt;
+}
+@media only screen and (max-width: 768px) {
+  .head-title{
+    font-size: 28pt;   
+  }
+  .details{
+    font-size:14pt;
+  }
 }
 
