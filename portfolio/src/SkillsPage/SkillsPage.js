@@ -1,9 +1,16 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {Row,Col,Container,Card} from 'react-bootstrap/';
 
 function SkillsPage() {
+    const [passion] = useState([
+        {'title':"Algorithms"},
+        {'title':"Talk"},
+        {'title':'Problem Solving'}
+    ]);
+
     return(
 
+    
      <Container>
         <div class="doc2">
           <div style={{textAlign:"center", fontSize:"36pt", fontWeight:"700"}}>
@@ -12,10 +19,12 @@ function SkillsPage() {
             </div>
         <div style={{paddingTop:"30px"}}></div>
         <Row xs="1" sm="2" md="4">
-            <Cardsx title="Raizen"/>
+        {passion.map(p=>(
+            <Cardsx title={p.title}/>
+        ))}
+
             
-            
-            </Row>
+        </Row>
        
         </div>
         </Container>
@@ -27,7 +36,7 @@ function SkillsPage() {
     );
 }
 
-function Cardsx(title,image,description){
+function Cardsx({title,image,description}){
    return( <Col style={{paddingTop:"25px"}}>
       <Card>
       <Card.Img variant="top" src={require('./image.jpg')}></Card.Img>
