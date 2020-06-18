@@ -3,9 +3,9 @@ import {Row,Col,Container,Card} from 'react-bootstrap/';
 
 function SkillsPage() {
     const [passion] = useState([
-        {'title':"Algorithms","description":"Just really love about Competetive Programming such as codewars, hackerank and codesignal"},
-        {'title':"Talk","description":"Sharing my experience to other people is one of my passion, sharing is caring for me and it feels good"},
-        {'title':'Problem Solving',"description":"Just really passionate about making some solution to the problem that we're facing is the thing that I love "}
+        {title:"Algorithms",description:"Just really love about Competetive Programming such as codewars, hackerank and codesignal",image:"./image.jpg"},
+        {title:"Talk",description:"Sharing my experience to other people is one of my passion, sharing is caring for me and it feels good",image:"./image.jpg"},
+        {title:'Problem Solving',description:"Just really passionate about making some solution to the problem that we're facing is the thing that I love ", image:"./image.jpg"}
     ]);
 
     return(
@@ -17,10 +17,10 @@ function SkillsPage() {
 
           Things that I'm Passionate about
             </div>
-        <div style={{paddingTop:"30px"}}></div>
+    
         <Row xs="1" sm="2" md="4">
         {passion.map(p=>(
-            <Cardsx title={p.title} description={p.description}/>
+            <Cardsx title={p.title}  description={p.description}   />
         ))}
 
             
@@ -39,7 +39,8 @@ function SkillsPage() {
 function Cardsx({title,image,description}){
    return( <Col style={{paddingTop:"25px"}}>
       <Card>
-      <Card.Img variant="top" src={require('./image.jpg')}></Card.Img>
+         
+      <Card.Img variant="top" src={require("./image.jpg")}></Card.Img>
     <Card.Body>
        
 <Card.Title>{title}</Card.Title>

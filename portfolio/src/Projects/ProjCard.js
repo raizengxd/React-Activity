@@ -2,7 +2,7 @@ import React from 'react';
 
 import {Card} from 'react-bootstrap';
 
-function ProjectCard({name,github,language,description}) {
+function ProjectCard({key,name,github,language,description}) {
   return (        
     <Card
     bg='dark'    

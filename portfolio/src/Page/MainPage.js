@@ -9,12 +9,12 @@ import {SocialMediaIconsReact} from 'social-media-icons-react';
 function MainPage() {
   return (   
       <Container>
-        <div class="wrap">   
+        <div className="wrap">   
         <Row className="top-2">
           <Col>  
           <div > 
           <div className="head-title">
-            I am <span class="typing-letter">
+            I am <span className="typing-letter">
             <ReactTypingEffect
       text={["Human","Programmer", "Developer","Raizen"]}
       typingDelay="6000ms" cursor="_"
@@ -22,7 +22,7 @@ function MainPage() {
               </span>
           </div>
           </div> 
-            <span class="details">   
+            <span className="details">   
             Computer Science student who doesn't eat water because water is for drinking
             </span>  
           <div style={{padding:"20px"}}></div>  
