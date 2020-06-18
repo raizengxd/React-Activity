@@ -3,9 +3,9 @@ import {Row,Col,Container,Card} from 'react-bootstrap/';
 
 function SkillsPage() {
     const [passion] = useState([
-        {'title':"Algorithms"},
-        {'title':"Talk"},
-        {'title':'Problem Solving'}
+        {'title':"Algorithms","description":"Just really love about Competetive Programming such as codewars, hackerank and codesignal"},
+        {'title':"Talk","description":"Sharing my experience to other people is one of my passion, sharing is caring for me and it feels good"},
+        {'title':'Problem Solving',"description":"Just really passionate about making some solution to the problem that we're facing is the thing that I love "}
     ]);
 
     return(
@@ -20,7 +20,7 @@ function SkillsPage() {
         <div style={{paddingTop:"30px"}}></div>
         <Row xs="1" sm="2" md="4">
         {passion.map(p=>(
-            <Cardsx title={p.title}/>
+            <Cardsx title={p.title} description={p.description}/>
         ))}
 
             
@@ -44,8 +44,7 @@ function Cardsx({title,image,description}){
        
 <Card.Title>{title}</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+       {description}
       </Card.Text>
     </Card.Body>
     </Card>
