@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import * as Icon from 'react-bootstrap-icons';
+
 
 function NavBar() {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './Components/navBar.js';
 import MainPage from './Page/MainPage.js';
 import SkillsPage from './SkillsPage/SkillsPage.js';
-import LayoutCard from './Projects/LayoutCard.js'
+
 import './App.css'
 function App() {
   return (
