@@ -16,8 +16,8 @@ function MainPage() {
           <div className="head-title">
             I am <span class="typing-letter">
             <ReactTypingEffect
-      text={["Human","Programmer", "Developer"]}
-      typingDelay="6000ms" 
+      text={["Human","Programmer", "Developer","Raizen"]}
+      typingDelay="6000ms" cursor="_"
     />
               </span>
           </div>

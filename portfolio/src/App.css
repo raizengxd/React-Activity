@@ -1,9 +1,16 @@
 *{
   margin: 0;
-  padding: 0;
+  
   
   font-weight: 100;
   
+
+
+}
+
+body,html{
+  height: 100%;
+  margin: 0;
 }
 .head-title{
   font-family: 'Montserrat';
@@ -12,6 +19,7 @@
   
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -19,10 +27,28 @@
 .makeCenter{
   text-align: center;
 }
-.App-color{
-  background-color:rgb(10, 10, 10);
-}
 
+.doc3{
+
+  /* Full height */
+  height: 100vh; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.doc2{
+
+  /* Full height */
+  height: 50vh; 
+  
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 .top-2{
@@ -35,6 +61,9 @@
 .details{
   font-size: 36pt;
 }
+
+
+
 @media only screen and (max-width: 768px) {
   .head-title{
     font-size: 28pt;   

@@ -6,9 +6,14 @@ import './Projects/LayoutCard.js'
 import './App.css'
 function App() {
   return (
+    
+          
     <div className="App">      
       <NavBar/> 
+      <div className="doc3">
       <MainPage></MainPage>
+      </div>
+      <SkillsPage></SkillsPage>
       </div>
   );
 }
