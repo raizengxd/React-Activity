@@ -7,9 +7,16 @@ import {SocialMediaIconsReact} from 'social-media-icons-react';
 
 
 function MainPage() {
+  const imgMyimageexample = require('./mountain.jpeg');
+const divStyle = {
+  width: '88%',
+  height: '800px',
+  backgroundImage: `url(${imgMyimageexample})`,
+  backgroundSize: 'cover' 
+};
   return (   
-      <Container>
-        <div className="wrap">   
+   
+        <div className="wrap-a">   
         <Row className="top-2">
           <Col>  
           <div > 
@@ -37,7 +44,7 @@ function MainPage() {
         </div>  
         
        
-    </Container>
+ 
       
   );
 }

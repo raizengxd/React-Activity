@@ -11,7 +11,7 @@ function SkillsPage() {
     return(
 
     
-     <Container>
+  
         <div className="doc2">
           <div style={{textAlign:"center", fontSize:"36pt", fontWeight:"700"}}>
 
@@ -24,14 +24,13 @@ function SkillsPage() {
                 <Cardsx title={p.title}  description={p.description} image={p.image}   />
             </div>
 
-        ))}
-       
+        ))}   
         
 
         </Row>
        
         </div>
-        </Container>
+      
 
 
         

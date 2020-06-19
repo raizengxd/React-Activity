@@ -1,12 +1,16 @@
 import React from 'react';
-import {Card} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 
 
 function Education() {
-  return (        
-    <div className="education-lay">
-        <div className=""></div>
+  return (     
+
+    <div className="education-lay" style={{paddingTop:"100px"}}>
+        <div style={{textAlign:"left", fontSize:"36pt", fontWeight:"700"}}>
+            EDUCATON</div>
+        
     </div>   
+    
   );
 }
 
