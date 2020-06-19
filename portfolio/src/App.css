@@ -18,7 +18,11 @@ body,html{
   font-weight: 900;
   
 }
-
+.details3{
+  text-align: center;
+  font-size: 36pt;
+  font-weight: 700;
+}
 
 .App-logo {
   height: 40vmin;
@@ -27,11 +31,16 @@ body,html{
 .makeCenter{
   text-align: center;
 }
+.wrap-a{
 
+  height: 100%;
+  min-height: 100vh;
+}
 
 .doc2{
+  height: 100%;
+  min-height: 50vh;
   
-  background-color: aqua;
 }
 
 
@@ -54,6 +63,9 @@ body,html{
   }
   .details{
     font-size:14pt;
+  }
+  .details3{
+    font-size:12pt;
   }
 }
 

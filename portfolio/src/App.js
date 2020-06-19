@@ -12,18 +12,18 @@ function App() {
           
     <div className="App">      
       <NavBar/> 
+      
       <Container>
-      
-      <Row>
+    
       <MainPage></MainPage>
-      </Row>
-      
-      <Row>
+    
+    
+   
       <SkillsPage></SkillsPage>
-      </Row>
-      <Row>
+     
+     
       <Education></Education>
-      </Row>
+      
       </Container>
      </div>
   );

@@ -6,7 +6,7 @@ function Education() {
   return (     
 
     <div className="education-lay" style={{paddingTop:"100px"}}>
-        <div style={{textAlign:"left", fontSize:"36pt", fontWeight:"700"}}>
+        <div className="details3">
             EDUCATON</div>
         
     </div>   

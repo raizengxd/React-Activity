@@ -11,9 +11,8 @@ function SkillsPage() {
     return(
 
     
-  
-        <div className="doc2">
-          <div style={{textAlign:"center", fontSize:"36pt", fontWeight:"700"}}>
+  <Container>        <div className="doc2">
+          <div className="details3">
 
           Things that I'm Passionate about
             </div>
@@ -30,6 +29,8 @@ function SkillsPage() {
         </Row>
        
         </div>
+        </Container>
+
       
 
 
