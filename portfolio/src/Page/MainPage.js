@@ -23,7 +23,7 @@ function MainPage() {
           </div>
           </div> 
             <span className="details">   
-            Computer Science student who doesn't <br>eat water because water is for drinking
+            Computer Science student who doesn't eat water because water is for drinking
             </span>  
           <div style={{padding:"20px"}}></div>  
           <div>
