@@ -4,7 +4,7 @@ import {Container,Row,Col} from 'react-bootstrap';
 
 function Education() {
   return (     
-<Container>    <div className="education-lay" style={{paddingTop:"100px", paddingBottom:"100px"}}>
+    <div className="education-lay" style={{paddingTop:"100px", paddingBottom:"100px"}}>
         <div className="details3 typing-letter" style={{paddingBottom:"40px"}}>
             EDUCATON</div>
         <div >
@@ -14,11 +14,9 @@ function Education() {
           <Col>
           <img src={require("./logo-cca.png")} height="100px" alt="add3" className="responsive-a"/>
           </Col>
+         
           <Col>
-          <img src={require("./logo-edx.png")} height="90px" alt="add2" className="responsive-a"/>
-          </Col>
-          <Col>
-          <img src={require("./logo-yt.png")} height="120px" alt="add2" className="responsive-a"/>
+          <img src={require("./logo-yt.png")} height="100px" alt="add2" className="responsive-a"/>
           </Col>
           <Col>
           <img src={require("./logo-udemy.png")} height="100px" alt="add" className="responsive-a"/>
@@ -29,7 +27,7 @@ function Education() {
           
         </Row>
     </div>   
-    </Container>
+ 
 
     
   );

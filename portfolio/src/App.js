@@ -17,14 +17,14 @@ function App() {
     
       <MainPage></MainPage>
     
-    
-   
-      <SkillsPage></SkillsPage>
-     
-     
-      <Education></Education>
-      
       </Container>
+   <div className="skillspage">
+      <SkillsPage></SkillsPage>
+      </div> 
+     <Container>
+      <Education></Education>
+      </Container>
+     
      </div>
   );
 }
