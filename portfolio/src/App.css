@@ -54,6 +54,10 @@ body,html{
 .details{
   font-size: 36pt;
 }
+.responsive-a {
+  width: 100%;
+  height: auto;
+}
 
 
 

@@ -14,7 +14,7 @@ function SkillsPage() {
   <Container>        <div className="doc2">
           <div className="details3">
 
-          Things that I'm Passionate about
+          Things that I'm <span className="details3 typing-letter" >Passionate</span> about
             </div>
     
         <Row xs="1" sm="2" md="4">
