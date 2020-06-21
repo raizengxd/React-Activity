@@ -9,8 +9,7 @@ import {Container,Row} from 'react-bootstrap';
 
 function App() {
   
-  console.log('I was triggered during componentDidMount')
- 
+  const imge =require("./image/Slide1.PNG");
   return (
     
   
@@ -36,7 +35,7 @@ function App() {
      <Container>
       <Education></Education>
       </Container>
-    
+     
      </div>
   );
 }

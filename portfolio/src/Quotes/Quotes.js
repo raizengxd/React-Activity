@@ -1,5 +1,5 @@
 import React from 'react';
-import {} from 'react-bootstrap';
+import {Row,Container,Col} from 'react-bootstrap';
 
 
 function Quotes() {
@@ -17,8 +17,17 @@ function Quotes() {
         width: '100%',
         height: '50vh'
     } }>
-       <div style={{textAlign:"center",color:"white",verticalAlign:"middle",fontSize:"5vw"}}>
-You have power over your mind - not outside events. Realize this, and you will find strength.
+
+
+
+       <div style={{textAlign:"center",color:"white",verticalAlign:"middle",fontSize:"2vw"}}>
+         <Container>
+           <Row>
+             <Col>
+           You have power over your mind - not outside events. Realize this, and you will find strength.
+            </Col>
+           </Row>
+         </Container>
 
        </div>
     </div>   
