@@ -4,6 +4,7 @@ import {Container,Row,Col} from 'react-bootstrap';
 
 function Education() {
   return (     
+    
     <div className="education-lay" style={{paddingTop:"100px", paddingBottom:"100px"}}>
         <div className="details3 typing-letter" style={{paddingBottom:"40px"}}>
             EDUCATON</div>

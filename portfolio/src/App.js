@@ -8,18 +8,30 @@ import './App.css'
 import {Container,Row} from 'react-bootstrap';
 
 function App() {
+  
+  const imge =require("./image/Slide1.PNG");
   return (
     
-          
+  
     <div className="App">      
       <NavBar/> 
       
+      <div style={{
+        
+       
+        backgroundImage: `url(${imge})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        width: '100%',
+        height: '100vh'
+      }} className="bgx">
       <Container>    
       <MainPage></MainPage>    
       </Container>
-     
+     </div>
       <SkillsPage></SkillsPage>
-      <Quotes></Quotes>
+     <Quotes></Quotes>
      <Container>
       <Education></Education>
       </Container>

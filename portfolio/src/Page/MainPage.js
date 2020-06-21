@@ -13,7 +13,7 @@ function MainPage() {
         <Row className="top-2">
           <Col>  
           <div > 
-          <div className="head-title">
+          <div className="head-title" style={{color:"white"}}>
             I am <span className="typing-letter">
             <ReactTypingEffect
       text={["Human","Programmer", "Developer","Raizen"]}
@@ -22,7 +22,7 @@ function MainPage() {
               </span>
           </div>
           </div> 
-            <span className="details">   
+            <span className="details"  style={{color:'white'}}>   
             Computer Science student who doesn't eat water because water is for drinking
             </span>  
           <div style={{padding:"20px"}}></div>  
@@ -43,7 +43,7 @@ function MainPage() {
 function IconsSoc({iconName, iconUrl}){
   return (
     <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" borderWidth="0"
-     borderStyle="solid" icon={iconName} iconColor="#12b2df;"
+     borderStyle="solid" icon={iconName} iconColor="rgba(255,255,255,1)"
       backgroundColor="rgba(28,186,223,0)" iconSize="2" roundness="26%" 
       url={iconUrl} size="50"   />
   );

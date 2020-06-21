@@ -11,7 +11,7 @@ function SkillsPage() {
 
     return(
 
-    
+    <div style={{paddingTop:"100px",paddingBottom:"100px"}}>
   <Container>    
           <div className="doc2">
           <div className="details3">
@@ -35,7 +35,7 @@ function SkillsPage() {
 
       
 
-
+        </div>
         
    
         
