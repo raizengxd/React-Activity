@@ -6,7 +6,7 @@ function Quotes() {
  
 
 
-  const image = require('./image/image.PNG')
+  const image = require('./source/Slide1.PNG')
   return (     
     
     <div style={{
@@ -21,13 +21,7 @@ function Quotes() {
 
 
        <div style={{textAlign:"center",color:"white",verticalAlign:"middle",fontSize:"2vw"}}>
-         <Container>
-           <Row>
-             <Col>
-           You have power over your mind - not outside events. Realize this, and you will find strength.
-            </Col>
-           </Row>
-         </Container>
+        
 
        </div>
     </div>   
