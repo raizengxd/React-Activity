@@ -9,7 +9,10 @@ import './App.css'
 import {Container} from 'react-bootstrap';
 
 function App() {
-  
+  const url = "https://api.github.com/users/raizengxd";
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log(data);
   const imge =require("./image/Slide1.PNG");
   return (
     
