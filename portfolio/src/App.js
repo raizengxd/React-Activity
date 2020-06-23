@@ -9,10 +9,21 @@ import './App.css'
 import {Container} from 'react-bootstrap';
 
 function App() {
-  const url = "https://api.github.com/users/raizengxd";
-  const response = await fetch(url);
-  const data = await response.json();
-  console.log(data);
+
+  
+  fetch("https://api.github.com/users/raizengxd")
+  .then(response => response.json())
+  .then((jsonData) => {
+    // jsonData is parsed json object received from url
+    const x =(jsonData)
+  })
+  .catch((error) => {
+    // handle your errors here
+    console.error(error)
+  })
+
+  console.log(x)
+
   const imge =require("./image/Slide1.PNG");
   return (
     
