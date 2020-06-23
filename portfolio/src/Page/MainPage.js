@@ -19,6 +19,8 @@ function MainPage() {
       text={["Human","Programmer", "Developer","Raizen"]}
       typingDelay="6000ms" cursor="_"
     />
+
+  
               </span>
           </div>
           </div> 
