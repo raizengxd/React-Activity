@@ -16,7 +16,7 @@ function MainPage() {
           <div className="head-title" style={{color:"white"}}>
             I am <span className="typing-letter">
             <ReactTypingEffect
-      text={["Human","Programmer", "Developer","Raizen"]}
+      text={["Human","Programmer", "Developer","ChongXD"]}
       typingDelay="6000ms" cursor="_"
     />
 

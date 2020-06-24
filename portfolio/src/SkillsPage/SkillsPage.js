@@ -14,9 +14,8 @@ function SkillsPage() {
     <div style={{paddingTop:"100px",paddingBottom:"100px"}}>
   <Container>    
           <div className="doc2">
-          <div className="details3">
-
-          Things that I'm <span className="details3 typing-letter" >Passionate</span> about
+          <div className="details3 typing-letter">
+              PASSION
             </div>
     
         <Row xs="1" sm="2" md="4">

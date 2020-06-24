@@ -26,24 +26,24 @@ function Footer() {
 
     <div style={{color:"white",fontSize:"100%", paddingTop:"50px",paddingBottom:"50px"}}>
       <Container>
-        <Row className="justify-content-md-center">
-          <Col sm lg={true}>
+        <Row className="justify-content-md-center" >
+          <Col sm lg={true} style={{paddingBottom:"5%"}}>
           <div style={{fontWeight:"500", textAlign:"Center",fontSize:"25pt"}}>
           ABOUT
           </div>
           Thank you for spending your time in browsing my resume. This is my place in putting my every thoughts and other things about me. I really appreciate your time. Thank you so much
           </Col>
-          <Col sm lg={true}>
+          <Col sm lg={true} style={{paddingBottom:"2%"}}>
           <div style={{fontWeight:"500", textAlign:"Center",fontSize:"25pt"}}>
           RESUME
           </div>
           If you need pintable copy of my resume, you can have  here Thank you so much really really appreciate it 
           <div style={{paddingTop:"20px"}}>
-          <Button variant="primary">Primary</Button>
+          <Button variant="primary">Resume</Button>
 
           </div>
           </Col>
-          <Col sm lg={true} style={{textAlign:"center"}}>
+          <Col sm lg={true} style={{textAlign:"center",paddingBottom:"5%"}}>
           <div style={{fontWeight:"500"}}>
           OTHER PLATFORM
           </div>
