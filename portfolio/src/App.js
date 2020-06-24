@@ -5,25 +5,12 @@ import SkillsPage from './SkillsPage/SkillsPage.js';
 import Education from './Education/Education.js';
 import Quotes from './Quotes/Quotes.js';
 import Footer from './FooterData/Footer.js';
-import './App.css'
+import './App.css';
 import {Container} from 'react-bootstrap';
-
+import TableSkills from './TableSkills.js';
 function App() {
 
-  
-  fetch("https://api.github.com/users/raizengxd")
-  .then(response => response.json())
-  .then((jsonData) => {
-    // jsonData is parsed json object received from url
-    const x =(jsonData)
-  })
-  .catch((error) => {
-    // handle your errors here
-    console.error(error)
-  })
-
-  console.log(x)
-
+   
   const imge =require("./image/Slide1.PNG");
   return (
     
@@ -32,8 +19,6 @@ function App() {
       <NavBar/> 
       
       <div style={{
-        
-       
         backgroundImage: `url(${imge})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
@@ -46,10 +31,13 @@ function App() {
       </Container>
      </div>
       <SkillsPage></SkillsPage>
-     <Quotes></Quotes>
+     <Quotes></Quotes>     
      <Container>
       <Education></Education>
       </Container>
+      <Quotes></Quotes>
+      <TableSkills></TableSkills>
+
       <Footer></Footer>
      </div>
   );

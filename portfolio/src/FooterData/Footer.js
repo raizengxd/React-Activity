@@ -24,7 +24,7 @@ function Footer() {
 
 
 
-    <div style={{color:"white",fontSize:"15pt", paddingTop:"50px",paddingBottom:"50px"}}>
+    <div style={{color:"white",fontSize:"100%", paddingTop:"50px",paddingBottom:"50px"}}>
       <Container>
         <Row className="justify-content-md-center">
           <Col sm lg={true}>

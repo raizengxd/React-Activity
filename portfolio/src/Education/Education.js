@@ -5,13 +5,13 @@ import {Row,Col} from 'react-bootstrap';
 function Education() {
   return (     
     
-    <div className="education-lay" style={{paddingTop:"100px", paddingBottom:"100px"}}>
+    <div className="education-lay" style={{paddingTop:"100px", paddingBottom:"100px", }}>
         <div className="details3 typing-letter" style={{paddingBottom:"40px"}}>
             EDUCATON</div>
-        <div style={{fontSize:"16pt"}}>
-        I studied Computer Science at Holy Angel University. In my pursuit to never stop learning, I’m constantly improving my skills by taking courses such as Harvard’s CS50 via edX for stronger Computer Science fundamentals, and on Udacity and Udemy mainly for general programming.
+        <div style={{fontSize:"120%"}}>
+        I studied Computer Science at City College of Angeles. In my pursuit to never stop learning,Since I don't have money I try to study some of the tutorials in youtube and also some free courses in Udemy.
         </div>
-        <Row style={{paddingTop:"40px"}}>
+        <Row className="changeColor" style={{paddingTop:"40px",WebkitFilter:"grayscale(100%)",filter:"grayscale(100%)"}} >
           <Col>
           <img src={require("./logo-cca.png")} height="100px" alt="add3" className="responsive-a"/>
           </Col>

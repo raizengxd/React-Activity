@@ -64,6 +64,11 @@ body,html{
   width: 70%;
   height: auto;
 }
+.changeColor:hover{
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  
+}
 
 .bgx{
  background-color: black;

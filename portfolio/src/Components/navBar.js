@@ -4,24 +4,25 @@ import Nav from 'react-bootstrap/Nav';
 
 import {Button} from 'react-bootstrap/';
 
+
+
 function NavBar() {
   return (
   
     <Navbar collapseOnSelect expand="lg"  variant="dark" sticky="top" style={{backgroundColor:"#212529"}}>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand href="#home" style={{fontWeight:"500",color:"#12b2df"}}>Rai</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      
+  
     </Nav>
     <Nav>
-      <Nav.Link href="#deets"></Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-      <Button style={{backgroundColor:"green",borderColor:"none"}}>test</Button>
-      </Nav.Link>
-    </Nav>
+      <Nav.Link href="#deets">Home</Nav.Link>
+      <Nav.Link href="#features">Projects</Nav.Link>
+      <Nav.Link href="#pricing">About</Nav.Link>   
+      <Nav.Link href="#fpricing">Blog</Nav.Link>    
+      <Button variant="flat" style={{backgroundColor:"#12b2df",borderColor:"none"}}>Contact</Button>
+     </Nav>
   </Navbar.Collapse>
 </Navbar>
        
