@@ -10,7 +10,7 @@ function NavBar() {
   return (
   
     <Navbar collapseOnSelect expand="lg"  variant="dark" sticky="top" style={{backgroundColor:"#212529"}}>
-  <Navbar.Brand href="#home" style={{fontWeight:"500",color:"#12b2df"}}>Chong</Navbar.Brand>
+  <Navbar.Brand href="#home" style={{fontWeight:"500",color:"#12b2df"}}>Shong</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">

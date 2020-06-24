@@ -1,6 +1,5 @@
 import React from 'react';
 import {Row,Container,Col,Button} from 'react-bootstrap';
-
 import {SocialMediaIconsReact} from 'social-media-icons-react';
 
 function Footer() {
@@ -53,12 +52,23 @@ function Footer() {
           <IconsSoc iconName="linkedin" className='icons-set'/>     
           </Col>
         </Row>
+        <Row>
+        <Col sm lg={true} >
+          <div style={{fontWeight:"500", textAlign:"Center",fontSize:"100%"}}>
+          © 2020 Shiingchoks Foxedsix Burigis. Created with React-Bootstrap.
+
+          </div>
+          </Col>
+        </Row>
+   
 
       </Container>
-      </div>
-    </div>   
- 
+    
 
+      </div>
+   
+    </div>
+    
     
   );
 }

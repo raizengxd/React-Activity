@@ -5,9 +5,11 @@ import SkillsPage from './SkillsPage/SkillsPage.js';
 import Education from './Education/Education.js';
 import Quotes from './Quotes/Quotes.js';
 import Footer from './FooterData/Footer.js';
+
 import './App.css';
 import {Container} from 'react-bootstrap';
 import TableSkills from './TableSkills.js';
+
 function App() {
 
    
@@ -39,7 +41,8 @@ function App() {
       <TableSkills></TableSkills>
 
       <Footer></Footer>
-     </div>
+     
+       </div>
   );
 }
 

@@ -8,7 +8,7 @@ function TableSkills() {
        {category:"Web Front-end", part:"HTML5, CSS,JavaScript"},
        {category:"Mobile", part:"Flutter, Android"},
        {category:"Programming", part:"Python, C#, C++, Java, JavaScript"},
-       {category:"Web Backend", part:"Django"},
+       {category:"Web Backend", part:"Django, PHP"},
        {category:"JS Framework/Library", part:"Reactjs, JQuery"},
        {category:"Text editor/IDE", part:"Netbeans, Visual Studio,  VS Code, SublimeText"},
        {category:"Graphic Design", part:"Adobe XD, Adobe Photoshop, Powerpoint as Graphic design tool"},
